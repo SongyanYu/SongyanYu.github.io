@@ -13,20 +13,20 @@ collections:
     output: true
 
 defaults:
--scope:
+- scope:
 path: ""
 type: "people"
 values:
 layout: "people"
--scope:
+- scope:
 path: ""
 type: "posts"
 values:
 layout: "post"
--scope:
+- scope:
 path: ""
 values:
 layout: "default"
 
 plugins:
--jekyll-sitemap
+- jekyll-sitemap
