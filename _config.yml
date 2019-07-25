@@ -1,3 +1,21 @@
-
+name: Songyan website
+description: Songyan Yu's research interests
 collections:
-authors:
+  authors:
+    output: true
+
+defaults:
+-scope:
+path: ""
+type: "people"
+values:
+layout: "people"
+-scope:
+path: ""
+type: "posts"
+values:
+layout: "post"
+-scope:
+path: ""
+values:
+layout: "default"
