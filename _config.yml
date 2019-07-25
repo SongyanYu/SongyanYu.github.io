@@ -1,5 +1,13 @@
-name: Songyan website
-description: Songyan Yu's research interests
+# Where things are
+source: .
+destination: ./_site
+collections_dir: .
+plugins_dir: _plugins
+layouts_dir: _layouts
+data_dir: _data
+includes_dir: _includes
+sass:
+  sass_dir: _sass
 collections:
   authors:
     output: true
@@ -19,3 +27,6 @@ layout: "post"
 path: ""
 values:
 layout: "default"
+
+plugins:
+-jekyll-sitemap
