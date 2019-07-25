@@ -1,5 +1,4 @@
 # Where things are
-source              : .
 destination         : ./_site
 collections_dir     : .
 plugins_dir         : _plugins
