@@ -1,2 +1,2 @@
 # SongyanYu.github.io
-Person website
+This personal website is still being developed.
