@@ -1,7 +1,7 @@
 - name: Home
   link: /
-- name: Curriculum Vitae
-  link: /cv.html
+- name: Qualification
+  link: /qualification.html
 - name: Research
   link: research.html
 - name: Blog
