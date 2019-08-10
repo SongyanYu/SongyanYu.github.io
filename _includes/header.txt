@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="utf-8">
+<title>{{ page.title }}</title>
+<meta name="description" content="Songyan Yu's website">
+
+<!-- Mobile Specific Metas
+-------------------------------- -->
+<meta name="viewpoint", content="width=device-width, initial-scale=1">
+
+<!-- FONT
+-------------------------------- -->
+<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:300" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Exo+2:300,400" rel="stylesheet">
+
+<!-- CSS
+-------------------------------- -->
+<link rel="stylesheet" href="/assets/css/framework.css">
+
+</head>
