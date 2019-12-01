@@ -76,3 +76,12 @@ a.button{
 .side-box p, .side-box a{
     font-size:0.9rem;
 }
+
+.indent{
+padding-left:1.4em;
+margin-bottom:2em;
+}
+
+.tight-para{
+	line-height:7px;
+}
