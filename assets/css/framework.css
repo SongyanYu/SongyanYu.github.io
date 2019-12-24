@@ -16,44 +16,6 @@ a.button{
     border-radius:0.3rem;
 }
 
-.box-link{
-  cursor: grab;
-}
-
-.bkg-1{
-    background-color: #cce0ff;
-    color:#616866;
-    border-color:#cce0ff;
-}
-
-.side-box{
-      width:20%;
-      min-height: 20px;
-      box-sizing: border-box;
-      padding: 1% 5% 2% 5%;
-      float:left;
-      border-style: solid;
-      border-width: 5px;
-	font-size:1.4em;
-}
-
-.side-box:hover{
-    border-style: dashed;
-    border-width: 5px;
-    border-color: white;
-}
-
-
-.side-box h2{
-    font-size:1.4em;
-    line-height: 1.25;
-    margin:0;
-}
-
-.side-box p, .side-box a{
-    font-size:0.9rem;
-}
-
 .header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
 
 h3.text-muted a {text-decoration: none; color: #999999; }
@@ -64,5 +26,5 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 .cv h2 { font-size: 26.5px; }
 .cv h1 { font-size: 32.5px; }
 
-.contact, .cv, { margin-bottom: 30px; }
-.contact { width: 85%; margin: 0 auto; line-height: 26px; }
+.research, .cv, { margin-bottom: 30px; }
+.research { width: 85%; margin: 0 auto; line-height: 26px; }
