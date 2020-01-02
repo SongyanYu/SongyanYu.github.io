@@ -5,7 +5,6 @@ kramdown:
   hard_wrap: false
 future: true
 jailed: false
-remote_theme: pmarsceill/just-the-docs
 gfm_quirks: paragraph_end
 collections:
   people:
