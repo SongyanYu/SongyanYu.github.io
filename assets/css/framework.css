@@ -4,7 +4,7 @@ a.button{
     color:white;
     background-color: #99CCFF;
     width:auto;
-    padding:0em 0.4em;
+    padding:0.4em 0.4em;
     display: inline-block;
     text-decoration: none;
     border-style: none;
@@ -12,19 +12,48 @@ a.button{
     border-radius:0.3rem;
 }
 
-.head, .footer, .head h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
+.header, .footer, .header h3 { font-family: 'Montserrat', Helvetica, sans-serif; text-transform: uppercase; font-weight: normal; }
 
 h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
 .qualification {line-height: 23px; width: 90%; margin: auto auto;}
-.qualification li { line-height: 23px; }
+.qualification li { line-height: 23px; font-size:16px;}
 .qualification h2 { font-size: 26.5px; }
 .qualification h1 { font-size: 32.5px; }
+.qualification p {font-size: 16px;}
+.qualification address {font-size: 16px;}
+.qualification dl {font-size: 16px;}
 
 .research { width: 90%; margin: auto auto; line-height: 23px; }
+.research p {font-size: 16px;}
 
 .research, .qualification, { margin-bottom: 30px; }
 
-.container {margin: 5px 0;}
-.container {margin-bottom: 15px; }
+
+.header{
+  padding-bottom: 9px;
+  margin: 20px 0 10px;
+  border-bottom: 1px solid #eeeeee;
+}
+
+.footer{
+  padding-top: 9px;
+  margin: 20px 0 10px;
+  border-top: 1px solid #eeeeee;
+}
+
+/* CV */
+.cv {line-height: 23px; width: 90%; margin: 0 auto;}
+.cv li { line-height: 23px; }
+.cv h2 { font-size: 26.5px; }
+.cv h1 { font-size: 32.5px; }
+
+
+/* Custom container */
+.container > hr { margin: 30px 0; }
+.container > hr.footer {margin-bottom: 15px; }
+
+.marketing p { line-height: 25px; }
+.marketing p.lead { line-height: 30px; }
+
