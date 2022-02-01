@@ -9,5 +9,3 @@ gfm_quirks: paragraph_end
 collections:
   people:
     output: true
-# Google Analytics
-google_analytics: G-K3E20JR2H7
