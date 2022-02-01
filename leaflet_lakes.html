@@ -1,0 +1,49 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.3.1/leaflet.js"></script>
+    <style>
+      #map {position: absolute; top: 0; right: 0; bottom: 0; left: 0;}
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <p><a href="https://www.maptiler.com/copyright/" target="_blank">&copy; MapTiler</a> <a href="https://www.openstreetmap.org/copyright" target="_blank">&copy; OpenStreetMap contributors</a></p>
+    <script>
+      var map = L.map('map').setView([0, 0], 1);
+      L.tileLayer('https://api.maptiler.com/maps/streets/{z}/{x}/{y}.png?key=PPSLTUi3pOwFF94KxHFG',{
+        tileSize: 512,
+        zoomOffset: -1,
+        minZoom: 1,
+        attribution: "\u003ca href=\"https://www.maptiler.com/copyright/\" target=\"_blank\"\u003e\u0026copy; MapTiler\u003c/a\u003e \u003ca href=\"https://www.openstreetmap.org/copyright\" target=\"_blank\"\u003e\u0026copy; OpenStreetMap contributors\u003c/a\u003e",
+        crossOrigin: true
+      }).addTo(map);
+      var marker = L.marker([-27.384177,152.621162]).addTo(map);
+      marker.bindPopup("<b> Wivenhoe </b> <br> Dam name: Wivenhoe<br> Lake name: Wivenhoe<br> Location: Queensland <br> Latitude: -27.394250<br> Longitude: 152.609306<br> Owner: Seqwater <br>Capacity (ML):1,165,238<br><a href=leaflet_lakes/Wivenhoe/wlp.jpg>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-uDkZOdqVBjGW56j5ki7r5K1Ke6O>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Wivenhoe/Wivenhoe.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>");
+var marker = L.marker([-32.746137, 151.806128]).addTo(map);
+      marker.bindPopup("<b> Grahamstown </b> <br> Dam name: Grahamstown<br> Lake name: Grahamstown<br> Location: New South Wales <br> Latitude: -32.746137<br> Longitude: 151.806128<br> Owner: Hunter Water <br>Capacity (ML):182,305<br><a href=leaflet_lakes/Grahamstown/wlp.png>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-1OEMI0emFUrxBJg5yuDKeIS6JMm>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Grahamstown/Grahamstown.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>"); 
+var marker = L.marker([-37.625975, 144.911656]).addTo(map);
+      marker.bindPopup("<b> Greenvale </b> <br> Dam name: Greenvale<br> Lake name: Greenvale<br> Location: Victoria <br> Latitude: -37.625975<br> Longitude: 144.911656<br> Owner: Melbourne Water <br>Capacity (ML):26,839<br><a href=leaflet_lakes/Greenvale/wlp.png>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-8uQ6Q6OssxC9GZ9eRC6rl03SAj1>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Greenvale/Greenvale.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>"); 
+var marker = L.marker([-28.050052, 153.280606]).addTo(map);
+      marker.bindPopup("<b> Hinze </b> <br> Dam name: Hinze<br> Lake name: Advancetown<br> Location: Queensland <br> Latitude: -28.050052<br> Longitude: 153.280606<br> Owner: Seqwater <br>Capacity (ML):310,730<br><a href=leaflet_lakes/Hinze/wlp.png>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-uBc3Yd1F3bCl8xtT8K61oHIMbcs>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Hinze/Hinze.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>");
+var marker = L.marker([-34.754242, 138.720319]).addTo(map);
+      marker.bindPopup("<b> Little Para </b> <br> Dam name: Little Para<br> Lake name: Little Para<br> Location: South Australia <br> Latitude: -34.754242<br> Longitude: 138.720319<br> Owner: SA Water <br>Capacity (ML):310,730<br><a href=leaflet_lakes/Little%20Para/wlp.png>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-p8TO6XGnBaUdKyLbuBmizy1VnA3>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Little%20Para/Little%20Para.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>");
+var marker = L.marker([-27.263997, 152.936822]).addTo(map);
+      marker.bindPopup("<b> North Pine </b> <br> Dam name: North Pine<br> Lake name: Samsonvale<br> Location: Queensland<br> Latitude: -27.263997<br> Longitude: 152.936822<br> Owner: Seqwater<br>Capacity (ML):146,085<br><a href=leaflet_lakes/North%20Pine/wlp.png>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-i9KIsPaB7EcB1wu0UZQBQmKviDS>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/North%20Pine/North%20Pine.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>");
+var marker = L.marker([-27.114208, 152.557858]).addTo(map);
+      marker.bindPopup("<b> Somerset </b> <br> Dam name: Somerset<br> Lake name: Somerset<br> Location: Queensland <br> Latitude: -27.114208<br> Longitude: 152.557858<br> Owner: Seqwater <br>Capacity (ML):379,849<br><a href=leaflet_lakes/Somerset/wlp.png>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-uNfLaeuVocmKPwArrlfH1fAktZE>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Somerset/Somerset.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>");
+var marker = L.marker([-37.678031, 145.294394]).addTo(map);
+      marker.bindPopup("<b> Sugarloaf </b> <br> Dam name: Sugarloaf<br> Lake name: Eildon<br> Location: Victoria <br> Latitude: -37.678031<br> Longitude: 145.294394<br> Owner: Melbourne Water <br>Capacity (ML):96,253<br><a href=leaflet_lakes/Sugarloaf/wlp.png>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-2VFJftrvC515ionzVZu7JMC9Jxv>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Sugarloaf/Sugarloaf.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>");
+var marker = L.marker([-37.675311, 145.895786]).addTo(map);
+      marker.bindPopup("<b> Upper Yarra </b> <br> Dam name: Upper Yarra<br> Lake name: Upper Yarra<br> Location: Victoria <br> Latitude: -37.675311<br> Longitude: 145.895786<br> Owner: Melbourne Water <br>Capacity (ML):200,579<br><a href=leaflet_lakes/Upper%20Yarra/wlp.png>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-g7lfW1oc1EqtVdTe0awOB5nPA1I>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Upper%20Yarra/Upper%20Yarra.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>");
+var marker = L.marker([-33.882800, 150.595392]).addTo(map);
+      marker.bindPopup("<b> Warragamba </b> <br> Dam name: Warragamba <br> Lake name: Burragorang<br> Location: New South Wales <br> Latitude: -33.882800<br> Longitude: 150.595392<br> Owner: WaterNSW<br>Capacity (ML):2,027,000<br><a href=leaflet_lakes/Warragamba/wlp.png>Historical water level plot</a><br><a href=https://maps.dea.ga.gov.au/#share=s-n5TojcCmeF2SHUhbokv5Hl79SaF>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Warragamba/Warragamba.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>");
+var marker = L.marker([-34.217369, 146.022019]).addTo(map);
+      marker.bindPopup("<b> Wyangan</b> <br> Dam name: Wyangan<br> Lake name: Wyangan<br> Location: New South Wales <br> Latitude: -34.217369<br> Longitude: 146.022019<br> Owner: Griffith Council<br>Capacity (ML):North lake: 6,000 | South lake: 2,000 <br><a href=https://maps.dea.ga.gov.au/#share=s-4VjHKnlWJq9ZwX5gHZhFKlxjh0V>Waterbody wet surface (%) (Digital Earth Australia)</a><br><a href=leaflet_lakes/Wyangan/Wyangan.htm>Available lake water quantity & quality data</a><br> Contact: <a href=mailto:david.p.hamilton@griffith.edu.au>David Hamilton</a> | <a href=mailto:m.jahandideh-tehrani@griffith.edu.au>Mahsa Jahandideh Tehrani</a>");
+
+    </script>
+  </body>
+</html>
