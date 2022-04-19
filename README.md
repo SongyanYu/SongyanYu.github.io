@@ -1,2 +1,2 @@
-# SongyanYu.github.io
-This personal website is still being developed.
+# Personal website repo
+This repo is for my personal website - https://songyanyu.github.io/, managed by Songyan Yu <sunny.yu@griffith.edu.au>
