@@ -55,6 +55,7 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 .container > hr { margin: 30px 0; }
 .container > hr.footer {margin-bottom: 15px; }
 
+.marketing {width: 60%; margin: auto auto; }
 .marketing p { line-height: 25px; }
 .marketing p.lead { line-height: 30px; }
 
