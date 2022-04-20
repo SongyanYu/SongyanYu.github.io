@@ -18,7 +18,7 @@ h3.text-muted a {text-decoration: none; color: #999999; }
 h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 
 .qualification {line-height: 23px; width: 60%; margin: auto auto;}
-.qualification li { line-height: 23px; font-size:17px;}
+.qualification li { line-height: 23px; font-size: 17px;}
 .qualification h2 { font-size: 26.5px; }
 .qualification h1 { font-size: 32.5px; }
 .qualification p {font-size: 17px;}
@@ -26,7 +26,8 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 .qualification dl {font-size: 16px;}
 
 .research { width: 60%; margin: auto auto; line-height: 23px; }
-.research p {font-size: 17px;}
+.research p { font-size: 17px; }
+.research li { line-height: 23px; font-size: 17px;}
 
 .research, .qualification, .leafletlake { margin-bottom: 30px; }
 
