@@ -25,7 +25,7 @@ h3.text-muted a:hover { text-decoration: none; color: #0088cc; }
 .qualification address {font-size: 16px;}
 .qualification dl {font-size: 16px;}
 
-.research { width: 90%; margin: auto auto; line-height: 23px; }
+.research { width: 60%; margin: auto auto; line-height: 23px; }
 .research p {font-size: 16px;}
 
 .research, .qualification, .leafletlake { margin-bottom: 30px; }
